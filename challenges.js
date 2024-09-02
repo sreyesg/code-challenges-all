@@ -118,6 +118,9 @@ addList(7,-12) //=> -5
 -----------------------------------------------------------------------------*/
 // Your solution for 04-addList here:
 
+// use a for loop expression to iterate over each element of the array
+// use the length property to stop iteration when iterator reaches last element 
+
 
 
 
