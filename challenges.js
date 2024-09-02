@@ -133,9 +133,6 @@ function addList(...arr) {
 }
   return sum
 }
-console.log('todays >>>',addList(1)) 
-
-
 
 /*-----------------------------------------------------------------------------
 Challenge: 05-computeRemainder
@@ -160,9 +157,7 @@ computeRemainder(10.5, 3) //=> 1.5
 -----------------------------------------------------------------------------*/
 // Your solution for 05-computeRemainder here:
 
-
-
-
+// multiply divisor until it reaches the closes number wihtout passing dividend
 
 /*-----------------------------------------------------------------------------
 Challenge: 06-range
