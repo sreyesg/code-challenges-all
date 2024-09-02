@@ -157,7 +157,22 @@ computeRemainder(10.5, 3) //=> 1.5
 -----------------------------------------------------------------------------*/
 // Your solution for 05-computeRemainder here:
 
-// multiply divisor until it reaches the closes number wihtout passing dividend
+
+function computeRemainder(dividend, divisor){
+   
+  let quotient = dividend / divisor
+  if(divisor === 0){
+    return Infinity
+  }
+  if(Number.isInteger(quotient) === true){
+    return 0
+  } else {
+    let floorQuotient = Math.floor(quotient)
+    return dividend - divisor * floorQuotient
+  }
+  
+  
+}
 
 /*-----------------------------------------------------------------------------
 Challenge: 06-range
