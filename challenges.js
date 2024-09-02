@@ -95,7 +95,7 @@ function sumNumbers (arr) {
   const sum = arr.reduce((acumulator, currentValue) =>  acumulator + currentValue) 
   return sum
 }
-console.log(sumNumbers([2,5,7,1]))
+// console.log(sumNumbers([2,5,7,1]))
 
 
 /*-----------------------------------------------------------------------------
@@ -122,6 +122,18 @@ addList(7,-12) //=> -5
 // use the length property to stop iteration when iterator reaches last element 
 
 
+function addList(...arr) { 
+  let sum = 0
+  if(arr.length === 0){
+    return sum 
+  }else {
+    for(let i = 0; i < arr.length; i++){
+      sum += arr[i]
+    }
+}
+  return sum
+}
+console.log('todays >>>',addList(1)) 
 
 
 
