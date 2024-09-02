@@ -198,6 +198,24 @@ range(5,2) //=> "First argument must be less than second"
 // Your solution for 06-range here:
 
 
+function range(int1, int2){
+  
+  // check if first argument is less than or equal to second, otherwise return 'First argument must be less than second.'
+  if(!(int1 <= int2)){
+    return 'First argument must be less than second.'
+  }else {
+    const arr = () => {
+      for(let i = 0; i< int2-1; i++){
+        return i
+      }
+      console.log(arr)
+    }
+  }
+}
+// user Array class prototype method to build the array
+// grab second index value and substract one
+
+console.log(range(2,6))
 
 
 
